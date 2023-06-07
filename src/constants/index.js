@@ -38,6 +38,12 @@ export const navLinks = [
   },
 ];
 
+export const footerlink = [
+  {
+    id:"",
+  },
+]
+
 const services = [
   {
     title: "Web Developer",
