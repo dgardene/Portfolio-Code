@@ -42,7 +42,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am currently a Junior Computer Science Student at Texas Tech
+        I am currently a Senior Computer Science Student at Texas Tech
         University. I have various interests in Web Development, Software
         Engineering, and Data Science, along with experience in Java, Python,
         and C. I am hoping to work in a field where I can help advance the

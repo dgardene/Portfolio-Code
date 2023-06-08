@@ -17,9 +17,6 @@ import {
   docker,
   TTU,
   ITHC,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   python,
   C,
@@ -53,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Data Science",
     icon: mobile,
   },
   {
