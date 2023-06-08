@@ -21,6 +21,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  python,
+  C,
+  java,
 } from "../assets";
 
 export const navLinks = [
@@ -40,9 +43,9 @@ export const navLinks = [
 
 export const footerlink = [
   {
-    id:"",
+    id: "",
   },
-]
+];
 
 const services = [
   {
@@ -76,18 +79,18 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "Python",
+    icon: python,
+  },
   {
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "C",
+    icon: C,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -108,14 +111,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "Java",
+    icon: java,
+  },
 ];
 
 const experiences = [
@@ -165,28 +164,11 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
 ];
 

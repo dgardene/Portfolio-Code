@@ -21,13 +21,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/Java.png";
+import python from "./tech/Python.png";
+import C from "./tech/C.png";
 
 import TTU from "./company/TT.png";
 import ITHC from "./company/it.jpg";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -45,6 +44,9 @@ export {
   git,
   html,
   javascript,
+  java,
+  python,
+  C,
   mongodb,
   nodejs,
   reactjs,
@@ -52,9 +54,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
   ITHC,
   TTU,
-  jobit,
-  tripguide,
 };

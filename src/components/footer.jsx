@@ -9,9 +9,9 @@ import { logo, menu, close } from "../assets";
 const footer = () => {
   return (
     <footer
-      className={`${styles.paddingx} w-full flex items-center py-5 top-0 z-20 bg-primary`}
+      className={`${styles.paddingx} w-full flex items-center  top-0 z-20 bg-primary`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto ">
+      <div className=" flex justify-between items-center max-w-7xl mx-auto gap-10">
         <Link
           to="/"
           className="flex items-center gap-2"
