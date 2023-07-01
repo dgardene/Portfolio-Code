@@ -21,6 +21,8 @@ import {
   python,
   C,
   java,
+  CinematicAPI,
+  CasmiroCinema,
 } from "../assets";
 
 export const navLinks = [
@@ -188,7 +190,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "",
+    image: CasmiroCinema,
     source_code_link: "https://github.com/dgardene/Movie-Booking-System",
   },
   {
@@ -203,6 +205,23 @@ const projects = [
     ],
     image: "",
     source_code_link: "https://github.com/dgardene/Cellular-Life-Simulator",
+  },
+  {
+    name: "Movie Search API",
+    description:
+      "A web based platform that allows a user to search a movie title and it will be displayed. Done through implementation of a movies API",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CinematicAPI,
+    source_code_link: "https://github.com/dgardene/first-react-project",
   },
   // {
   //   name: "Trip Guide",

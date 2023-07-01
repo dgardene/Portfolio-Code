@@ -28,6 +28,9 @@ import C from "./tech/C.png";
 import TTU from "./company/TT.png";
 import ITHC from "./company/it.jpg";
 
+import CinematicAPI from "./CinematicAPI.png";
+import CasmiroCinema from "./CasmiroCinema.png";
+
 export {
   logo,
   backend,
@@ -56,4 +59,6 @@ export {
   threejs,
   ITHC,
   TTU,
+  CinematicAPI,
+  CasmiroCinema,
 };
