@@ -52,7 +52,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Data Science",
+    title: "React Native",
     icon: mobile,
   },
   {
