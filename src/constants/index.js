@@ -192,6 +192,7 @@ const projects = [
     ],
     image: CasmiroCinema,
     source_code_link: "https://github.com/dgardene/Movie-Booking-System",
+    web_url: "",
   },
   {
     name: "Cellular Life Simulator",
@@ -205,6 +206,7 @@ const projects = [
     ],
     image: "",
     source_code_link: "https://github.com/dgardene/Cellular-Life-Simulator",
+    web_url: "",
   },
   {
     name: "Movie Search API",
@@ -222,6 +224,7 @@ const projects = [
     ],
     image: CinematicAPI,
     source_code_link: "https://github.com/dgardene/first-react-project",
+    web_url: "https://cinema-api.netlify.app/",
   },
   // {
   //   name: "Trip Guide",
