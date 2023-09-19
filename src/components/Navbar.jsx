@@ -66,6 +66,14 @@ const Navbar = () => {
                   <a href={`#${Link.id}`}>{Link.title}</a>
                 </li>
               ))}
+              <li className="text-secondary font-poppins font-medium cursor-pointer text-[16px]">
+                <a href="https://www.linkedin.com/in/deandre-gardener/">
+                  Linkedin
+                </a>
+              </li>
+              <li className="text-secondary font-poppins font-medium cursor-pointer text-[16px]">
+                <a href="https://github.com/dgardene">Github</a>
+              </li>
             </ul>
           </div>
         </div>
