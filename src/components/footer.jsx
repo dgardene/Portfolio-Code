@@ -11,7 +11,7 @@ const footer = () => {
     <footer
       className={`${styles.paddingx} w-full flex items-center  top-0 z-20 bg-primary`}
     >
-      <div className=" flex justify-between items-center max-w-7xl mx-auto gap-10">
+      <div className=" flex justify-between items-center max-w-7xl mx-auto gap-10 xs:max-w-1xl">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -25,10 +25,10 @@ const footer = () => {
             Deandre &nbsp;<span className="sm:block hidden">| Portfolio</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden xs:flex flex-row gap-10">
           <li>
             <a href="https://github.com/dgardene">
-              <img src={github} className="w-9 h-9 object-contain" />
+              <img src={github} className="sm:w-9 sm:h-9 object-contain" />
             </a>
           </li>
           <li>

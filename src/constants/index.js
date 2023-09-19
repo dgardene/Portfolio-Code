@@ -137,26 +137,54 @@ const experiences = [
     ],
   },
   {
-    title: "Student Supervisor",
+    title: "Student Technician",
     company_name: "Texas Tech IT Help Central",
     icon: ITHC,
     iconBg: "#383E56",
-    date: "September 2022 - Present",
+    date: "September 2022 - December 2022",
     points: [
-      "Oversee the performance of employees",
-      "Answer any questions that may be had",
+      "Use increased responsibility and security access for business use only and troubleshooting purposes",
+      "Provide upper-level support for customer requests and incidents, and assign to appropriate Tier II groups as needed",
+      "Use access to special tools to assist in additional troubleshooting for TechMail, eRaider, software downloading, web page assistance, and other possible support needs",
     ],
   },
-
   {
     title: "Quality/Trainer",
     company_name: "Texas Tech IT Help Central",
     icon: ITHC,
     iconBg: "#383E56",
-    date: "September 2022 - Present",
+    date: "September 2022 - September 2023",
     points: [
-      "Train the next wave of Service Desk Student Assistants",
-      "Monitor the quality of work produced by employees",
+      "Review peer phone calls, emails, and ServiceNow records; score according to quality guidelines",
+      "Review customer surveys and categorize them for reporting purposes",
+      "Teach student analysts ways to improve call flow and call quality",
+      "Train newly hired student assistants on IT Help Central and TTU IT Division policies and procedures",
+    ],
+  },
+  {
+    title: "Student Supervisor",
+    company_name: "Texas Tech IT Help Central",
+    icon: ITHC,
+    iconBg: "#383E56",
+    date: "December 2022 - September 2023",
+    points: [
+      "Student supervisors shall perform all duties related to the student technician and student analyst positions",
+      "Provide supervision of all other student assistants and delegate tasks to others, when appropriate",
+      "Assist staff members by ensuring all work is being completed in a timely manner. In addition, ensure all other student assistants are performing all appropriate job duties",
+      "Communicate with staff members of any outages or technical issues that may occur, following all appropriate major incident management processes",
+      "Assist with training and mentoring duties as needed",
+    ],
+  },
+  {
+    title: "Lead Web Developer",
+    company_name: "Industrial Manufacturing Systems Engineering",
+    icon: TTU,
+    iconBg: "#383E56",
+    date: "Septemeber 2023 - Present",
+    points: [
+      "Revamped departmental website by using HTML/CSS/JS",
+      "Maintained departmental website by using CMS software",
+      "Collaborated with PR team, to help optimize user experience",
     ],
   },
 ];
@@ -226,27 +254,24 @@ const projects = [
     source_code_link: "https://github.com/dgardene/first-react-project",
     web_url: "https://cinema-api.netlify.app/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Job Search API",
+    description:
+      "A web based platform that allows a user to search a movie title and it will be displayed. Done through implementation of a movies API",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CinematicAPI,
+    source_code_link: "https://github.com/dgardene/JobSearch",
+    web_url: "https://cinema-api.netlify.app/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
