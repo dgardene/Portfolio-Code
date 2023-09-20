@@ -31,6 +31,8 @@ import ITHC from "./company/it.jpg";
 
 import CinematicAPI from "./CinematicAPI.png";
 import CasmiroCinema from "./CasmiroCinema.png";
+import JobApp from "./Job-app.png";
+import Conway from "./conway.jpg";
 
 export {
   logo,
@@ -62,5 +64,7 @@ export {
   TTU,
   CinematicAPI,
   CasmiroCinema,
+  JobApp,
   website,
+  Conway,
 };

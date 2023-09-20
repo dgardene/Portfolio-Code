@@ -23,6 +23,8 @@ import {
   java,
   CinematicAPI,
   CasmiroCinema,
+  JobApp,
+  Conway,
 } from "../assets";
 
 export const navLinks = [
@@ -52,7 +54,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native",
+    title: "Data Science",
     icon: mobile,
   },
   {
@@ -232,7 +234,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "",
+    image: Conway,
     source_code_link: "https://github.com/dgardene/Cellular-Life-Simulator",
     web_url: "",
   },
@@ -268,9 +270,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: CinematicAPI,
+    image: JobApp,
     source_code_link: "https://github.com/dgardene/JobSearch",
-    web_url: "https://cinema-api.netlify.app/",
+    web_url: "",
   },
 ];
 
