@@ -248,7 +248,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Tailwind-CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -259,7 +259,7 @@ const projects = [
   {
     name: "Job Search API",
     description:
-      "A web based platform that allows a user to search a movie title and it will be displayed. Done through implementation of a movies API",
+      "A Cross platform app that allows a user to search through a JobBoard API to gain more information on currently available jobs for hire.",
     tags: [
       {
         name: "react",
